@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+
+    <form action="formExcercise.html" method="post">
+      <div>
+      <label for="firstName">First Name:</label>
+      <input id="firstName"type="text" name="firstName" placeholder="John" required>
+
+      <label for="lastName">Last Name:</label>
+      <input id=lastName""type="text" name="lastName" placeholder="Smith" required>
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input id="other" type="radio" name="gender" value="other">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email"  placeholder="Email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" placeholder="Password" pattern=".{5,10}" required title="Password must be between 5 - 10 characters">
+      </div>
+
+      <div>
+        <label >Birthday:
+          <select name="month">
+            <option value="" disabled selected>Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+          </select>
+          <select name="day">
+            <option value="" disabled selected>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          <select name="year">
+            <option value="" disabled selected>Year</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <label for="tos">I agree to the terms and condiitions</label>
+        <input id="tos"type="checkbox" name="TOS">
+      </div>
+
+      <input id="submit" type="submit">
+    </form>
+
+  </body>
+</html>
