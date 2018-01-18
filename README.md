@@ -1,6 +1,6 @@
 # Udemy Course Repo
 
-######This repository contains code from the projects and exercises from the Udemy Courses in progress and completed by myself.
+###### This repository contains code from the projects and exercises from the Udemy Courses in progress and completed by myself.
 
 Current courses in progress: 
 
