@@ -1,0 +1,4 @@
+/* Single Class for indicating the winning player */
+.winner {
+  color: green;
+}
