@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <title>The RGB Color Game</title>
     <link rel="stylesheet" href="colorGame.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
   </head>
   <body>
-    <h1>The <span id="correctColor">rgb</span> Color Game</h1>
+    <h1>
+      The
+      <br>
+      <span id="correctColor">rgb</span>
+      <br>
+      Guessing Game
+    </h1>
 
-    <div>
+    <div id="stripe">
+      <button type="button" name="button" id="reset">New Colors</button>
       <span id="message"></span>
+      <button type="button" name="button" class="mode">Easy</button>
+      <button type="button" name="button" class="mode selected">Hard</button>
     </div>
 
     <div id="container">
