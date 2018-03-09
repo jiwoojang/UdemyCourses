@@ -18,6 +18,11 @@ app.get("/dog", function(req, res){
   res.send("Woof!");
 });
 
+// The catch all route, for when we route to somewhere that does not exist in the above routes
+app.get("*", function(req, res){
+  res.send("Not a valid route!");
+});
+
 // Listen to port 3000
 app.listen(3000, function(){
   console.log("Server has started");
